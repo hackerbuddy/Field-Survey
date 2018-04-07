@@ -13,6 +13,13 @@
 		D149E4F82078786B004DF73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D149E4F62078786B004DF73C /* LaunchScreen.storyboard */; };
 		D149E5032078786B004DF73C /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E5022078786B004DF73C /* Field_SurveyTests.swift */; };
 		D149E50E2078786B004DF73C /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E50D2078786B004DF73C /* Field_SurveyUITests.swift */; };
+		D149E51F20787C17004DF73C /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = D149E51E20787C17004DF73C /* field_observations.json */; };
+		D149E52620787CC3004DF73C /* SpecimenObservationsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52220787CC3004DF73C /* SpecimenObservationsJSONParser.swift */; };
+		D149E52720787CC3004DF73C /* SpecimenObservationsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52320787CC3004DF73C /* SpecimenObservationsJSONLoader.swift */; };
+		D149E52820787CC3004DF73C /* Specimen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52420787CC3004DF73C /* Specimen.swift */; };
+		D149E52920787CC3004DF73C /* SpecimenObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52520787CC3004DF73C /* SpecimenObservation.swift */; };
+		D149E52B207880F1004DF73C /* SpecimenObservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52A207880F1004DF73C /* SpecimenObservationDetailViewController.swift */; };
+		D149E52D207881A6004DF73C /* SpecimenObservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52C207881A6004DF73C /* SpecimenObservationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		D149E5092078786B004DF73C /* Field SurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D149E50D2078786B004DF73C /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
 		D149E50F2078786B004DF73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D149E51E20787C17004DF73C /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		D149E52220787CC3004DF73C /* SpecimenObservationsJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecimenObservationsJSONParser.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/SpecimenObservationsJSONParser.swift"; sourceTree = "<group>"; };
+		D149E52320787CC3004DF73C /* SpecimenObservationsJSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecimenObservationsJSONLoader.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/SpecimenObservationsJSONLoader.swift"; sourceTree = "<group>"; };
+		D149E52420787CC3004DF73C /* Specimen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Specimen.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/Specimen.swift"; sourceTree = "<group>"; };
+		D149E52520787CC3004DF73C /* SpecimenObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecimenObservation.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/SpecimenObservation.swift"; sourceTree = "<group>"; };
+		D149E52A207880F1004DF73C /* SpecimenObservationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecimenObservationDetailViewController.swift; sourceTree = "<group>"; };
+		D149E52C207881A6004DF73C /* SpecimenObservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecimenObservationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +109,14 @@
 		D149E4EC2078786B004DF73C /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				D149E51B20787B02004DF73C /* Model */,
 				D149E4ED2078786B004DF73C /* AppDelegate.swift */,
 				D149E4F12078786B004DF73C /* Main.storyboard */,
 				D149E4F42078786B004DF73C /* Assets.xcassets */,
 				D149E4F62078786B004DF73C /* LaunchScreen.storyboard */,
 				D149E4F92078786B004DF73C /* Info.plist */,
+				D149E52A207880F1004DF73C /* SpecimenObservationDetailViewController.swift */,
+				D149E52C207881A6004DF73C /* SpecimenObservationViewController.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -120,6 +137,18 @@
 				D149E50F2078786B004DF73C /* Info.plist */,
 			);
 			path = "Field SurveyUITests";
+			sourceTree = "<group>";
+		};
+		D149E51B20787B02004DF73C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D149E52420787CC3004DF73C /* Specimen.swift */,
+				D149E52520787CC3004DF73C /* SpecimenObservation.swift */,
+				D149E52320787CC3004DF73C /* SpecimenObservationsJSONLoader.swift */,
+				D149E52220787CC3004DF73C /* SpecimenObservationsJSONParser.swift */,
+				D149E51E20787C17004DF73C /* field_observations.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D149E4F82078786B004DF73C /* LaunchScreen.storyboard in Resources */,
+				D149E51F20787C17004DF73C /* field_observations.json in Resources */,
 				D149E4F52078786B004DF73C /* Assets.xcassets in Resources */,
 				D149E4F32078786B004DF73C /* Main.storyboard in Resources */,
 			);
@@ -256,7 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D149E52920787CC3004DF73C /* SpecimenObservation.swift in Sources */,
 				D149E4EE2078786B004DF73C /* AppDelegate.swift in Sources */,
+				D149E52B207880F1004DF73C /* SpecimenObservationDetailViewController.swift in Sources */,
+				D149E52820787CC3004DF73C /* Specimen.swift in Sources */,
+				D149E52620787CC3004DF73C /* SpecimenObservationsJSONParser.swift in Sources */,
+				D149E52D207881A6004DF73C /* SpecimenObservationViewController.swift in Sources */,
+				D149E52720787CC3004DF73C /* SpecimenObservationsJSONLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
