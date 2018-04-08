@@ -20,6 +20,7 @@
 		D149E52920787CC3004DF73C /* SpecimenObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52520787CC3004DF73C /* SpecimenObservation.swift */; };
 		D149E52B207880F1004DF73C /* SpecimenObservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52A207880F1004DF73C /* SpecimenObservationDetailViewController.swift */; };
 		D149E52D207881A6004DF73C /* SpecimenObservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52C207881A6004DF73C /* SpecimenObservationViewController.swift */; };
+		D149E52F207943B0004DF73C /* SpecimenObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149E52E207943B0004DF73C /* SpecimenObservationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +54,13 @@
 		D149E50D2078786B004DF73C /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
 		D149E50F2078786B004DF73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D149E51E20787C17004DF73C /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
-		D149E52220787CC3004DF73C /* SpecimenObservationsJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecimenObservationsJSONParser.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/SpecimenObservationsJSONParser.swift"; sourceTree = "<group>"; };
-		D149E52320787CC3004DF73C /* SpecimenObservationsJSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecimenObservationsJSONLoader.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/SpecimenObservationsJSONLoader.swift"; sourceTree = "<group>"; };
-		D149E52420787CC3004DF73C /* Specimen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Specimen.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/Specimen.swift"; sourceTree = "<group>"; };
-		D149E52520787CC3004DF73C /* SpecimenObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecimenObservation.swift; path = "Sports-Events-master/Sports Events/Sports Events/Model/SpecimenObservation.swift"; sourceTree = "<group>"; };
+		D149E52220787CC3004DF73C /* SpecimenObservationsJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecimenObservationsJSONParser.swift; sourceTree = "<group>"; };
+		D149E52320787CC3004DF73C /* SpecimenObservationsJSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecimenObservationsJSONLoader.swift; sourceTree = "<group>"; };
+		D149E52420787CC3004DF73C /* Specimen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specimen.swift; sourceTree = "<group>"; };
+		D149E52520787CC3004DF73C /* SpecimenObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecimenObservation.swift; sourceTree = "<group>"; };
 		D149E52A207880F1004DF73C /* SpecimenObservationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecimenObservationDetailViewController.swift; sourceTree = "<group>"; };
 		D149E52C207881A6004DF73C /* SpecimenObservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecimenObservationViewController.swift; sourceTree = "<group>"; };
+		D149E52E207943B0004DF73C /* SpecimenObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecimenObservationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				D149E4F92078786B004DF73C /* Info.plist */,
 				D149E52A207880F1004DF73C /* SpecimenObservationDetailViewController.swift */,
 				D149E52C207881A6004DF73C /* SpecimenObservationViewController.swift */,
+				D149E52E207943B0004DF73C /* SpecimenObservationTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				D149E4EE2078786B004DF73C /* AppDelegate.swift in Sources */,
 				D149E52B207880F1004DF73C /* SpecimenObservationDetailViewController.swift in Sources */,
 				D149E52820787CC3004DF73C /* Specimen.swift in Sources */,
+				D149E52F207943B0004DF73C /* SpecimenObservationTableViewCell.swift in Sources */,
 				D149E52620787CC3004DF73C /* SpecimenObservationsJSONParser.swift in Sources */,
 				D149E52D207881A6004DF73C /* SpecimenObservationViewController.swift in Sources */,
 				D149E52720787CC3004DF73C /* SpecimenObservationsJSONLoader.swift in Sources */,

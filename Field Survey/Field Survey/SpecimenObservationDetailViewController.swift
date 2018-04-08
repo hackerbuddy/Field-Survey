@@ -9,10 +9,35 @@
 import UIKit
 
 class SpecimenObservationDetailViewController: UIViewController {
-
+    
+    var specimenObservation: SpecimenObservation?
+    
+    var dateFormatter = DateFormatter()
+    
+    @IBOutlet weak var specimenObservationImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.title = "Observation"
+        
+        dateFormatter.dateStyle = .medium   //covers date portion
+        dateFormatter.timeStyle = .medium   //covers time portion
+        
+        specimenObservationImageView.image = specimenObservation?.classification.image
+        //grabs associated image related to struct
+        titleLabel.text = specimenObservation?.title
+        descriptionLabel.text = specimenObservation?.description
+        
+        if let date = specimenObservation?.date {
+            dateLabel.text = dateFormatter.string(from: date)
+        } else {
+            dateLabel.text = ""
+        }
+        
         // Do any additional setup after loading the view.
     }
 
