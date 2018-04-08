@@ -101,6 +101,9 @@
                         <viewLayoutGuide key="safeArea" id="GpX-Ct-XJQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="71G-8D-bag"/>
+                    <connections>
+                        <outlet property="specimenObservationsTableView" destination="kPx-3j-yCL" id="o2M-jP-LeF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5tX-fw-pKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -161,7 +164,6 @@
                         <outlet property="dateLabel" destination="rOA-S2-lcB" id="KJr-RU-9Jd"/>
                         <outlet property="descriptionLabel" destination="fI5-vC-nRA" id="WcR-0a-Rtd"/>
                         <outlet property="specimenObservationImageView" destination="VfW-uG-77n" id="HhT-Uv-TKT"/>
-                        <outlet property="specimenobservationimageview" destination="VfW-uG-77n" id="YAj-K8-Kva"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MEP-qb-W9I" userLabel="First Responder" sceneMemberID="firstResponder"/>

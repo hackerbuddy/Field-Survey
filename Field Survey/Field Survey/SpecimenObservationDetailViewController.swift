@@ -15,7 +15,7 @@ class SpecimenObservationDetailViewController: UIViewController {
     var dateFormatter = DateFormatter()
     
     @IBOutlet weak var specimenObservationImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var classificationLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
@@ -29,7 +29,7 @@ class SpecimenObservationDetailViewController: UIViewController {
         
         specimenObservationImageView.image = specimenObservation?.classification.image
         //grabs associated image related to struct
-        titleLabel.text = specimenObservation?.title
+        classificationLabel.text = specimenObservation?.title
         descriptionLabel.text = specimenObservation?.description
         
         if let date = specimenObservation?.date {
